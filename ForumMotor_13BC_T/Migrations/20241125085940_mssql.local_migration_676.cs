@@ -30,7 +30,7 @@ namespace ForumMotor_13BC_T.Migrations
                         column: x => x.ForumUserId,
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.SetNull);
+                        onDelete: ReferentialAction.NoAction);
                 });
 
             migrationBuilder.CreateTable(
